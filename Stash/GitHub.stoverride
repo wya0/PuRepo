@@ -1,0 +1,25 @@
+name: GitHub Private Access
+desc:  GitHub 访问私有仓库
+ 
+http:
+  force-http-engine:
+    - "raw.githubusercontent.com"
+    - "gist.githubusercontent.com"
+  mitm:
+    - "raw.githubusercontent.com"
+    - "gist.githubusercontent.com"
+
+  script:
+    - match: ^https?:\/\/(raw|gist)\.githubusercontent.com
+      name: "GitHub 增强"
+      type: request
+      require-body: false
+      timeout: 30
+      # max-size: 5242880 # 5M
+      # argument: ""
+      # debug: true
+
+script-providers:
+  "GitHub 增强":
+    url: "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/GithubPrivate/github-private-repo.js"
+    interval: 86400

@@ -7,6 +7,8 @@ let arr = appId.split(",");
 const idMatch = reg2.exec($request.url);
 if (idMatch) {
   const id = idMatch[1];
+  $notification.post(${id}`);
+  $done({});
   arr.push(id);
   arr = [...new Set(arr)].filter((a) => a); // 使用Set去重
   if (arr.length > 0) {

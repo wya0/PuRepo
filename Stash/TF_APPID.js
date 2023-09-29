@@ -1,4 +1,4 @@
-const reg2 = ^https:\/\/testflight\.apple\.com\/join\/(.*);
+const reg2 = /^https:\/\/testflight\.apple\.com\/join\/(.*)/;
 let appId = $persistentStore.read("APP_ID");
 if (!appId) {
   appId = "";

@@ -11,5 +11,5 @@ if (arr.length > 0) {
   appId = arr.join(",")
 }
 $persistentStore.write(appId, "APP_ID")
-$notify("TestFlight自动加入", `已添加APP_ID: ${id}`, `当前ID: ${appId}`)
+$notification.post("TestFlight自动加入", `已添加APP_ID: ${id}`, `当前ID: ${appId}`)
 $done({})

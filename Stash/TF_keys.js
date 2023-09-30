@@ -20,7 +20,9 @@ if (reg1.test($request.url)) {
     $notify("TestFlight自动加入", "信息获取失败", "请添加testflight.apple.com");
   }
   $done({});
-} else if (reg2.test($request.url)) {
+}
+
+if (reg2.test($request.url)) {
   let appId = $persistentStore.read("APP_ID");
   if (!appId) {
     appId = "";

@@ -1,0 +1,45 @@
+{
+  "apiVersion": 1,
+  "generatedAt": "2026-03-17T16:10:25Z",
+  "plugins": [
+    {
+      "pluginId": "panda",
+      "version": "0.0.1",
+      "platform": "panda",
+      "platformName": "panda",
+      "zipURLs": [
+        "https://raw.githubusercontent.com/wya0/PuRepo/refs/heads/main/live/live.zip",
+      ],
+      "zipURL": "https://raw.githubusercontent.com/wya0/PuRepo/refs/heads/main/live/live.zip",
+      "sha256": "e8b0bcf89b9b1df62718134d45bc6dcf9f46c13a9524d5b510e937f787027d3d",
+      "changelog": [
+      ],
+      "capabilities": {
+        "categories": {
+          "status": "available"
+        },
+        "rooms": {
+          "status": "available"
+        },
+        "playback": {
+          "status": "available"
+        },
+        "search": {
+          "status": "available"
+        },
+        "roomDetail": {
+          "status": "available"
+        },
+        "liveState": {
+          "status": "available"
+        },
+        "shareResolve": {
+          "status": "available"
+        },
+        "danmaku": {
+          "status": "available"
+        }
+      },
+    }
+  ]
+}

@@ -8,10 +8,10 @@
       "platform": "panda",
       "platformName": "panda",
       "zipURLs": [
-        "https://raw.githubusercontent.com/wya0/PuRepo/refs/heads/main/live/live.zip",
+        "https://raw.githubusercontent.com/wya0/PuRepo/refs/heads/main/live/panda.zip",
       ],
-      "zipURL": "https://raw.githubusercontent.com/wya0/PuRepo/refs/heads/main/live/live.zip",
-      "sha256": "e8b0bcf89b9b1df62718134d45bc6dcf9f46c13a9524d5b510e937f787027d3d",
+      "zipURL": "https://raw.githubusercontent.com/wya0/PuRepo/refs/heads/main/live/panda.zip",
+      "sha256": "c319276e3468e320f4b3390fa356499517a85d0f28bc36c47a68da9c92b5f764",
       "changelog": [
       ],
       "capabilities": {
@@ -40,6 +40,14 @@
           "status": "available"
         }
       },
+      "icon": "assets/panda.png",
+      "iosIcon": "assets/panda.png",
+      "macosIcon": "assets/panda.png",
+      "tvosIcon": "assets/panda.png",
+      "tvosBigIcon": "assets/panda.png",
+      "tvosSmallIcon": "assets/panda.png",
+      "tvosBigIconDark": "assets/panda.png",
+      "tvosSmallIconDark": "assets/panda.png"
     }
   ]
 }
